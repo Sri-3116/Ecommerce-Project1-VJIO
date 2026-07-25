@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VJIO</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="output.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="collections.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Ad -->
+    <div id="ads" class="bg-blue-950 flex justify-center">
+        <h1 class="text-white font-bold p-2.5">Sign Up and <strong>GET 50% OFF</strong> for your first Order </h1>
+        <h1 id="closebtn" class="text-white font-bold p-2.5 cursor-pointer">X</h1>
+    </div>
+
+    <!-- Navbar -->
+    <nav class="flex justify-between m-2 HomeNav">
+        <div class="flex gap-20 items-center">
+            <h1 class="p-2 font-bold" style="font-size: clamp(1.5rem, 4vw,3.5rem);">VJIO</h1>
+        </div>
+
+        <div class="MenuBar">
+            <i id="Menu-btn" class="fa-solid fa-bars"></i>
+        </div>
+
+        <div class="nav-items">
+            <a href="./index.html#home"><p class="nav-link hover:underline underline-offset-2">Home</p></a>
+            <a href="./index.html#newarrival"><p class="nav-link hover:underline underline-offset-2">New Arrival</p></a>
+            <a href="./index.html#MostWanted"><p class="nav-link hover:underline underline-offset-2">Most Wanted</p></a>
+            <a href="./collections.html"><p class="nav-link hover:underline underline-offset-2">Collections</p></a>
+            <a href="./contact.html"><p class="nav-link hover:underline underline-offset-2">Contact Us</p></a>
+        </div>
+    </nav>
+
+    <div class="side-nav-items">
+        <h1 id="MenuClosebtn" class="text-amber-50 flex justify-end cursor-pointer">X</h1>
+        <a href="./index.html#home"><p class="nav-link hover:underline underline-offset-2">Home</p></a>
+        <a href="./index.html#newarrival"><p class="nav-link hover:underline underline-offset-2">New Arrival</p></a>
+        <a href="./index.html#MostWanted"><p class="nav-link hover:underline underline-offset-2">Most Wanted</p></a>
+        <a href="./collections.html"><p class="nav-link hover:underline underline-offset-2">Collections</p></a>
+        <a href="./contact.html"><p class="nav-link hover:underline underline-offset-2">Contact Us</p></a>
+    </div>
+
+    <!-- Collection Section -->
+    <div class="Col">
+        <div class="Cat-Containers">
+            <div class="Occation">
+                <h1>Trendy</h1>
+                <div>
+                    <input type="checkbox" name="Occation" value="Women Style">
+                    <p>Women Style</p>
+                </div>
+                <div>
+                    <input type="checkbox" name="Occation" value="Max shoes">
+                    <p>Max shoes</p>
+                </div>
+                <div>
+                    <input type="checkbox" name="Occation" value="Stylish Watches">
+                    <p>Stylish Watches</p>
+                </div>
+            </div>
+
+            <div class="Colors">
+                <h1>Colors</h1>
+                <div>
+                    <input type="checkbox" name="Colors" value="Red">
+                    <p>Red</p>
+                </div>
+                <div>
+                    <input type="checkbox" name="Colors" value="Blue">
+                    <p>Blue</p>
+                </div>
+                <div>
+                    <input type="checkbox" name="Colors" value="White">
+                    <p>White</p>
+                </div>
+                <div>
+                    <input type="checkbox" name="Colors" value="Green">
+                    <p>Black</p>
+                </div>
+            </div>
+
+            <div class="Arrivals">
+                <h1>Arrivals</h1>
+                <div>
+                    <input type="checkbox" name="Arrivals" value="New">
+                    <p>newarrival</p>
+                </div>
+                <div>
+                    <input type="checkbox" name="Arrivals" value="Old">
+                    <p>MostWanted</p>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="Cat-Containers-Right">
+            <div style="display: flex; justify-content: center; align-items: center;">
+                <input type="text" id="SearchInput" placeholder="Search...">
+            </div>
+        
+            <div class="dress-collection">
+            </div>
+        </div>
+    </div>
+    
+
+
+    <!-- News Letter -->
+     <footer>
+        <footer class="footer">
+
+    <div class="footer-top">
+
+        <div class="footer-logo">
+            VJIO
+        </div>
+
+        <div class="footer-message">
+            <p>
+                Fashion that speaks for you.
+                Discover styles made to match your personality.
+            </p>
+        </div>
+
+    </div>
+
+
+    <div class="footer-middle">
+
+        <div class="footer-menu">
+
+            <h3>Explore</h3>
+
+            <a href="#">Home</a>
+            <a href="#">Shop</a>
+            <a href="#">Collections</a>
+            <a href="#">About Us</a>
+
+        </div>
+
+
+        <div class="footer-menu">
+
+            <h3>Help</h3>
+
+            <a href="#">Contact Us</a>
+            <a href="#">Shipping</a>
+            <a href="#">Returns</a>
+            <a href="#">FAQs</a>
+
+        </div>
+
+
+        <div class="footer-subscribe">
+
+            <h3>Join Our Community</h3>
+
+            <p>
+                Get exclusive offers and updates
+                directly in your inbox.
+            </p>
+
+            <form id="subscribeForm">
+
+                <input
+                    type="email"
+                    id="email"
+                    placeholder="Enter your email"
+                    required
+                >
+
+                <button type="submit">
+                    →
+                </button>
+
+            </form>
+
+        </div>
+
+    </div>
+
+
+    <div class="footer-bottom">
+
+        <p>
+            © 2026 VJIO
+        </p>
+
+        <div class="social-icons">
+
+            <a href="#">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+
+            <a href="#">
+                <i class="fa-brands fa-facebook"></i>
+            </a>
+
+            <a href="#">
+                <i class="fa-brands fa-twitter"></i>
+            </a>
+
+        </div>
+
+        <div class="legal-links">
+
+            <a href="#">Privacy</a>
+            <a href="#">Terms</a>
+
+        </div>
+
+    </div>
+
+
+    </footer>
+    <script src="collections.js"></script>
+</body>
+</html>

@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VJIO</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="output.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div id="ads" class="bg-blue-950 flex justify-center">
+        <h1 class="text-white font-bold p-2.5">Sign Up and <strong>GET 50% OFF</strong> for your first Order </h1>
+        <h1 id="closebtn" class="text-white font-bold p-2.5 cursor-pointer">X</h1>
+    </div>
+
+    <!-- Navbar -->
+    <nav class="flex justify-between m-2 HomeNav">
+        <div class="flex gap-20 items-center">
+            <h1 class="p-2 font-bold" style="font-size: clamp(1.5rem, 4vw,3.5rem);">VJIO</h1>
+        </div>
+
+        <div class="MenuBar">
+            <i id="Menu-btn" class="fa-solid fa-bars"></i>
+        </div>
+
+        <div class="nav-items">
+
+            <a href="./index.html#home">
+                <p class="nav-link hover:underline underline-offset-2">Home</p>
+            </a>
+            <a href="./index.html#newarrival">
+                <p class="nav-link hover:underline underline-offset-2">New Arrival</p>
+            </a>
+            <a href="./index.html#MostWanted">
+                <p class="nav-link hover:underline underline-offset-2">Most Wanted</p>
+            </a>
+            <a href="./collections.html">
+                <p class="nav-link hover:underline underline-offset-2">Collections</p>
+            </a>
+            <a href="./contact.html">
+                <p class="nav-link hover:underline underline-offset-2">Contact Us</p>
+            </a>
+
+        </div>
+    </nav>
+
+    <div class="side-nav-items">
+        <h1 id="MenuClosebtn" class="text-amber-50 flex justify-end cursor-pointer">X</h1>
+        <a href="./index.html#home">
+            <p class="nav-link hover:underline underline-offset-2">Home</p>
+        </a>
+        <a href="./index.html#newarrival">
+            <p class="nav-link hover:underline underline-offset-2">New Arrival</p>
+        </a>
+        <a href="./index.html#MostWanted">
+            <p class="nav-link hover:underline underline-offset-2">Most Wanted</p>
+        </a>
+        <a href="./collections.html">
+            <p class="nav-link hover:underline underline-offset-2">Collections</p>
+        </a>
+        <a href="./contact.html">
+            <p class="nav-link hover:underline underline-offset-2">Contact Us</p>
+        </a>
+    </div>
+
+    <section id="home">
+        <!-- Image Section -->
+        <section class="hero-slider">
+
+            <!-- Slide 1 -->
+            <div class="slide active">
+
+                <img src="images/trendy1.avif" alt="Level Up Your Style">
+
+                <div class="overlay"></div>
+
+                <div class="slide-content">
+
+                    <h1>Level Up Your Style</h1>
+
+                    <p>Discover fashion that makes every moment unforgettable.</p>
+
+                    <a href="./index.html#newarrival"><button>Shop Now</button></a>
+
+                </div>
+
+            </div>
+
+
+            <!-- Slide 2 -->
+            <div class="slide">
+
+                <img src="images/trendy3.avif" alt="Summer Collection">
+
+                <div class="overlay"></div>
+
+                <div class="slide-content">
+
+                    <h1>Summer Collection</h1>
+
+                    <p>Fresh looks and effortless styles made for sunny days.</p>
+
+                    <a href="./collections.html"><button>View Collection</button></a>
+
+                </div>
+
+            </div>
+
+
+            <!-- Slide 3 -->
+            <div class="slide">
+
+                <img src="images/trendy2.avif" alt="New Arrivals">
+
+                <div class="overlay"></div>
+
+                <div class="slide-content">
+
+                    <h1>New Arrivals</h1>
+
+                    <p>Premium Fashion Collection</p>
+
+                    <a href="./index.html#MostWanted"><button>See What's New</button></a>
+
+                </div>
+
+            </div>
+
+
+
+
+            <!-- Previous Button -->
+            <button class="prev">
+                &#10094;
+            </button>
+
+
+            <!-- Next Button -->
+            <button class="next">
+                &#10095;
+            </button>
+
+        </section>
+
+        <!-- Brands -->
+        <div class="brands">
+            <h1 class="text-3xl p-2 font-bold" style="font-size: clamp(1rem, 3vw,2.5rem)">Our Brands</h1>
+            <div class="brands-container">
+                <div class="Brand">
+                    <img src="https://i.pinimg.com/736x/4f/8f/bd/4f8fbdf9810060f573b2644860894ed4.jpg">
+                    <h1>Puma</h1>
+                </div>
+
+                <div class="Brand">
+                    <img src="https://i.pinimg.com/736x/e8/db/1c/e8db1c1575d862fd8acd109b58690a21.jpg">
+                    <h1>Adidas</h1>
+                </div>
+
+                <div class="Brand">
+                    <img src="https://i.pinimg.com/736x/2f/1e/b6/2f1eb60bce725b2c527e076cb7cab710.jpg">
+                    <h1>Nike</h1>
+                </div>
+
+
+                <div class="Brand">
+                    <img src="https://i.pinimg.com/736x/89/6c/93/896c936a988951ee22c945a6675f78df.jpg">
+                    <h1>Adidos</h1>
+                </div>
+
+                <div class="Brand">
+                    <img src="https://i.pinimg.com/736x/bf/3a/db/bf3adbdb3678777a7d80addc06a29db1.jpg">
+                    <h1>Guccy</h1>
+                </div>
+
+                <div class="Brand">
+                    <img src="https://i.pinimg.com/736x/7c/e4/57/7ce457732798206efd82d7c8a61d723a.jpg">
+                    <h1>Reebork</h1>
+                </div>
+            </div>
+        </div>
+
+        <!-- ADS -->
+        <section class="commitment-section">
+
+            <!-- Section Header -->
+            <div class="commitment-header">
+
+                <div class="header-title">
+                    <span class="small-label">WHY CHOOSE US</span>
+                    <h1>Our Commitment</h1>
+                </div>
+
+                <p>
+                    From discovering the latest trends to receiving your favorite
+                    pieces at your doorstep, we make every step of your shopping
+                    journey simple, stylish, and enjoyable.
+                </p>
+
+            </div>
+
+
+            <!-- Cards -->
+            <div class="commitment-cards">
+
+                <div class="commitment-card">
+
+                    <div class="card-icon">
+                        <i class="fa-regular fa-circle-check"></i>
+                    </div>
+
+                    <div class="card-content">
+                        <h2>Fashion That Fits Your Lifestyle</h2>
+
+                        <p>
+                            Discover quality styles,
+                            and enjoy a seamless shopping experience made just for you.
+                        </p>
+                    </div>
+
+                    <span class="card-number">01</span>
+
+                </div>
+
+
+                <div class="commitment-card">
+
+                    <div class="card-icon">
+                        <i class="fa-regular fa-face-grin"></i>
+                    </div>
+
+                    <div class="card-content">
+                        <h2>It's Your Style.</h2>
+
+                        <p>
+                            We bring together quality and the latest trends
+                            to help you express your unique style with confidence.
+                        </p>
+                    </div>
+
+                    <span class="card-number">02</span>
+
+                </div>
+
+
+                <div class="commitment-card">
+
+                    <div class="card-icon">
+                        <i class="fa-solid fa-broom"></i>
+                    </div>
+
+                    <div class="card-content">
+                        <h2>Style Made For U</h2>
+
+                        <p>
+                            Explore carefully selected fashion pieces designed
+                            to make every look feel uniquely yours.
+                        </p>
+                    </div>
+
+                    <span class="card-number">03</span>
+
+                </div>
+
+
+                <div class="commitment-card">
+
+                    <div class="card-icon">
+                        <i class="fa-solid fa-truck"></i>
+                    </div>
+
+                    <div class="card-content">
+                        <h2>Fast & Free Shipping</h2>
+
+                        <p>
+                            Enjoy quick, reliable, and hassle-free delivery
+                            directly to your doorstep.
+                        </p>
+                    </div>
+
+                    <span class="card-number">04</span>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- New Arrival -->
+        <section id="newarrival">
+            <div class="NA">
+                <h1 class="Info-Heading">Trends to watch</h1>
+            </div>
+            <div class="Shirts-Container">
+                <div class="Shirts-Container-card">
+                    <div class="img-container">
+                        <img src="images/shirt2.jpg">
+                    </div>
+                    <div class="overlay"></div>
+                    <div>
+                        <button class="ShopNowbtn">new</button>
+                    </div>
+                </div>
+
+                <div class="Shirts-Container-card">
+                    <div class="img-container">
+                        <img src="images/women2.webp">
+                    </div>
+                    <div class="overlay"></div>
+                    <div>
+                        
+                        <button class="ShopNowbtn">New</button>
+                    </div>
+                </div>
+
+                <div class="Shirts-Container-card">
+                    <div class="img-container">
+                        <img src="images/jean1.webp">
+                    </div>
+                    <div class="overlay"></div>
+                    <div>
+                        <button class="ShopNowbtn">New</button>
+                    </div>
+                </div>
+
+                <div class="Shirts-Container-card">
+                    <div class="img-container">
+                        <img src="./images/w4.webp">
+                    </div>
+                    <div class="overlay"></div>
+                    <div>
+                        <button class="ShopNowbtn">New</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Most Wnted -->
+        <section id="MostWanted">
+            <div>
+                <div class="NA">
+                    <h1 class="Info-Heading">OUR BESTSELLERS</h1>
+                </div>
+                <div class="Shirts-Container-red">
+
+                    <div class="Shirts-Container-red-card">
+                        <div class="img-container">
+                            <img src="./images/shoes1.avif">
+                        </div>
+                        <div class="like-button">
+                            <i class="fa-regular fa-heart"></i>
+                            <i class="fa-solid fa-heart"></i>
+                        </div>
+                    </div>
+
+
+
+                    <div class="Shirts-Container-red-card">
+                        <div class="img-container">
+                            <img src="./images/shirt3.avif">
+                        </div>
+                        <div class="like-button">
+                            <i class="fa-regular fa-heart"></i>
+                            <i class="fa-solid fa-heart"></i>
+                        </div>
+                    </div>
+
+                    <div class="Shirts-Container-red-card">
+                        <div class="img-container">
+                            <img src="images/w4.webp">
+                        </div>
+                        <div class="like-button">
+                            <i class="fa-regular fa-heart"></i>
+                            <i class="fa-solid fa-heart"></i>
+                        </div>
+                    </div>
+
+                    <div class="Shirts-Container-red-card">
+                        <div class="img-container">
+                            <img src="./images/shoes2.avif">
+                        </div>
+                        <div class="like-button">
+                            <i class="fa-regular fa-heart"></i>
+                            <i class="fa-solid fa-heart"></i>
+                        </div>
+                    </div>
+
+                    <div class="Shirts-Container-red-card">
+                        <div class="img-container">
+                            <img src="./images/shoes8.avif">
+                        </div>
+                        <div class="like-button">
+                            <i class="fa-regular fa-heart"></i>
+                            <i class="fa-solid fa-heart"></i>
+                        </div>
+                    </div>
+                    <div class="Shirts-Container-red-card">
+                        <div class="img-container">
+                            <img src="./images/w67.avif">
+                        </div>
+                        <div class="like-button">
+                            <i class="fa-regular fa-heart"></i>
+                            <i class="fa-solid fa-heart"></i>
+                        </div>
+                    </div>
+                    <div class="Shirts-Container-red-card">
+                        <div class="img-container">
+                            <img src="./images/shoes4.avif">
+                        </div>
+                        <div class="like-button">
+                            <i class="fa-regular fa-heart"></i>
+                            <i class="fa-solid fa-heart"></i>
+                        </div>
+                    </div>
+
+                    <div class="Shirts-Container-red-card">
+                        <div class="img-container">
+                            <img src="./images/T-shirt3.avif">
+                        </div>
+                        <div class="like-button">
+                            <i class="fa-regular fa-heart"></i>
+                            <i class="fa-solid fa-heart"></i>
+                        </div>
+                    </div>
+
+
+
+                </div>
+            </div>
+            <div class="Limited-Offer">
+                <div class="lo-img">
+                    <img src="images/women3.avif" alt="">
+                </div>
+                <div class="lo-text">
+                    <h1>HURRY UP</h1>
+                    <p>Limited-Time Deal — Enjoy 50% OFF Today!</p>
+                    <a href="index.html"><button>Shop now</button></a>
+                </div>
+            </div>
+        </section>
+
+        <!-- News Letter -->
+        <!-- <div>
+        <div class="Newscontainer">
+            <h1>Join our News Letter</h1>
+            <p>Signup for our email newspaper to get exclusive discounts, updates, and more</p>
+            <input type="text">
+            <button>Subscribe</button>
+        </div>
+    </div> -->
+
+        <!-- Footer -->
+        <footer>
+            <footer class="footer">
+
+                <div class="footer-top">
+
+                    <div class="footer-logo">
+                        VJIO
+                    </div>
+
+                    <div class="footer-message">
+                        <p>
+                            Fashion that speaks for you.
+                            Discover styles made to match your personality.
+                        </p>
+                    </div>
+
+                </div>
+
+
+                <div class="footer-middle">
+
+                    <div class="footer-menu">
+
+                        <h3>Explore</h3>
+
+                        <a href="#">Home</a>
+                        <a href="#">Shop</a>
+                        <a href="#">Collections</a>
+                        <a href="#">About Us</a>
+
+                    </div>
+
+
+                    <div class="footer-menu">
+
+                        <h3>Help</h3>
+
+                        <a href="#">Contact Us</a>
+                        <a href="#">Shipping</a>
+                        <a href="#">Returns</a>
+                        <a href="#">FAQs</a>
+
+                    </div>
+
+
+                    <div class="footer-subscribe">
+
+                        <h3>Join Our Community</h3>
+
+                        <p>
+                            Get exclusive offers and updates
+                            directly in your inbox.
+                        </p>
+
+                        <form id="subscribeForm">
+
+                            <input type="email" id="email" placeholder="Enter your email" required>
+
+                            <button type="submit">
+                                →
+                            </button>
+
+                        </form>
+
+                    </div>
+
+                </div>
+
+
+                <div class="footer-bottom">
+
+                    <p>
+                        © 2026 VJIO
+                    </p>
+
+                    <div class="social-icons">
+
+                        <a href="#">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+
+                        <a href="#">
+                            <i class="fa-brands fa-facebook"></i>
+                        </a>
+
+                        <a href="#">
+                            <i class="fa-brands fa-twitter"></i>
+                        </a>
+
+                    </div>
+
+                    <div class="legal-links">
+
+                        <a href="#">Privacy</a>
+                        <a href="#">Terms</a>
+
+                    </div>
+
+                </div>
+
+
+            </footer>
+            <script src="script.js"></script>
+</body>
+
+</html>

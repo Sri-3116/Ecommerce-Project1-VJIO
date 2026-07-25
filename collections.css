@@ -1,0 +1,77 @@
+.Col{
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 6fr;
+
+}
+
+.Occation div, .Colors div, .Arrivals div{
+    display: flex;
+    gap: 2px;
+    align-items: center;
+}
+
+.Cat-Containers{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding-left: 10px;
+    border-right: 2px solid black;
+}
+
+.Cat-Containers h1{
+    font-family: "Poppins"; 
+    color: rgb(11, 164, 175);   
+    font-size: clamp(1.5rem, 1rem + 2vw, 2.5rem);
+}
+
+.Cat-Containers p{
+    font-family: "Poppins";
+    font-weight: 500;
+    font-size: clamp(0.9rem, 0.8rem + 0.4vw, 1.1rem);
+}
+
+.Cat-Containers input{
+    font-family: "Poppins";
+    font-weight: 500;
+    font-size: clamp(0.95rem, 0.85rem + 0.3vw, 1.1rem);
+}
+
+
+#SearchInput{
+    background-color: #fff;
+    font-size: 1.5vw;
+    padding: 10px;
+    padding-left: 30px;
+    width: 80%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius:10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+
+.dress-collection{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+
+    padding: 10px;
+}
+
+.dress-card{
+    flex-basis: calc((100% - 30px) / 4);
+}
+
+.dress-card h1{
+    font-size: 1.5vw;
+    font-weight: 500;
+}
+
+.dress-card p{
+    font-size: 1vw;
+}
+
+.dress-card img{
+    width: 35vh;
+}
